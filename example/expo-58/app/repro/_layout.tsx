@@ -23,6 +23,7 @@ export default function ReproLayout() {
       />
       <Stack.Screen name="page-sheet" options={{ presentation: 'modal', headerShown: false }} />
       <Stack.Screen name="sheet" options={{ headerShown: false }} />
+      <Stack.Screen name="overlay-text" options={{ title: 'Overlay Text' }} />
     </Stack>
   );
 }
